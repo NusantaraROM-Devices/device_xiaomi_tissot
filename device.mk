@@ -111,3 +111,8 @@ $(call inherit-product, build/target/product/verity.mk)
 #FireFoxLite
 PRODUCT_PACKAGES += \
      FireFoxLite
+
+# Music
+PRODUCT_PACKAGES += \
+    Musicolet
+	
