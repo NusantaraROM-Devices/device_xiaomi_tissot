@@ -1,15 +1,33 @@
 [
   {
-   "remote": "priv",
-   "repository": "android_packages_apps_NusantaraParts",
-   "target_path": "packages/apps/NusantaraParts", 
-   "branch": "4.9"
+   "remote":"priv",
+   "repository":"android_packages_apps_NusantaraParts",
+   "target_path":"packages/apps/NusantaraParts", 
+   "branch":"4.9"
   },
   {
-    "remote": "priv",
-    "repository": "android_packages_apps_NusantaraPapers", 
-    "target_path": "packages/apps/NusantaraPapers",
-    "branch": "10"
+    "remote":"priv",
+    "repository":"android_packages_apps_NusantaraPapers", 
+    "target_path":"packages/apps/NusantaraPapers",
+    "branch":"10"
+  },
+  {
+    "remote":"github",
+    "repository":"NusantaraROM-devices/vendor_xiaomi_tissot",
+    "target_path":"vendor/xiaomi",
+    "branch":"10"
+  },
+  {
+   "remote":"github",
+    "repository":"yincen17/Strixkernel_xiaomi_msm8953",
+    "target_path":"kernel/xiaomi/msm8953",
+    "branch":"lineage-17.0"
+  },
+  {
+   "remote":"github",
+    "repository":"yincen17/android_device_xiaomi_msm8953-common",
+    "target_path":"device/xiaomi/msm8953-common/",
+    "branch":"10"
   }
 ]
 
