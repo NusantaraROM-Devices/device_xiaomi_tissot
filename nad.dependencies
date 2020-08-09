@@ -1,15 +1,15 @@
 [
   {
-   "remote" :    "priv",
-   "repository" : "android_packages_apps_NusantaraParts",
-   "target_path" : "packages/apps/NusantaraParts", 
-   "branch"      : "4.9"
+   "remote": "priv",
+   "repository": "android_packages_apps_NusantaraParts",
+   "target_path": "packages/apps/NusantaraParts", 
+   "branch": "4.9"
   },
   {
-    "remote" :   "priv",
-    "repository" : "android_packages_apps_NusantaraPapers", 
-    "target_path" : "packages/apps/NusantaraPapers",
-    "branch" : "10"
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraPapers", 
+    "target_path": "packages/apps/NusantaraPapers",
+    "branch": "10"
   }
 ]
 
