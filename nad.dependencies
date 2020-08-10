@@ -19,14 +19,14 @@
   },
   {
    "remote":"github",
-    "repository":"yincen17/Strixkernel_xiaomi_msm8953",
+    "repository":"yincen17/kernel_xiaomi_msm8953",
     "target_path":"kernel/xiaomi/msm8953",
-    "branch":"lineage-17.0"
+    "branch":"derp10"
   },
   {
    "remote":"github",
     "repository":"yincen17/android_device_xiaomi_msm8953-common",
-    "target_path":"device/xiaomi/msm8953-common/",
+    "target_path":"device/xiaomi/msm8953-common",
     "branch":"10"
   }
 ]
