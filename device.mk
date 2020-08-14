@@ -87,6 +87,7 @@ SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(PRODUCT_BOARD_PLATFORM)/media
 
 # Properties
 -include device/xiaomi/tissot/prop.mk
+TARGET_SYSTEM_PROP := device/xiaomi/tissot/adreno.prop
 
 # Ramdisk
 PRODUCT_PACKAGES += \
