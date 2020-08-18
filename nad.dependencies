@@ -19,9 +19,9 @@
   },
   {
    "remote":"github",
-    "repository":"busetdah/kernel_xiaomi_tissot",
+    "repository":"yincen17/kernel_xiaomi_msm8953",
     "target_path":"kernel/xiaomi/msm8953",
-    "branch":"Non-Oc"
+    "branch":"derp10"
   },
   {
    "remote":"github",
