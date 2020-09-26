@@ -47,6 +47,9 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 # Twrp
 -include $(DEVICE_PATH)/twrp/twrp.mk
 
+# Selinux
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
