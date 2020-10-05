@@ -28,11 +28,6 @@
     "repository":"yincen17/android_device_xiaomi_msm8953-common",
     "target_path":"device/xiaomi/msm8953-common",
     "branch":"11"
-  },
-   { 
-    "remote":"github", 
-    "repository":"kdrag0n/proton-clang", 
-    "target_path":"prebuilts/clang/host/linux-x86/clang-proton", 
-    "branch":"master"
+
   }
 ]
