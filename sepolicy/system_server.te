@@ -1,2 +1,0 @@
-allow system_server exported_camera_prop:file { open };
-allow system_server app_zygote:process { getpgid };

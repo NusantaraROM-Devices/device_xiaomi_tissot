@@ -1,1 +1,0 @@
-allow netmgrd vendor_default_prop:property_service { set };
