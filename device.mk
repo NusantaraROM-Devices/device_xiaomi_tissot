@@ -117,7 +117,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
 
-# Via
+#FireFoxLite
 PRODUCT_PACKAGES += \
-    Via
-
+    FireFoxLite
