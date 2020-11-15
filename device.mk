@@ -76,10 +76,14 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_USES_QCOM_HARDWARE := true
+
 #HAls
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/display
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/audio
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/media
+RC_AUDIO_HAL_DIR := hardware/qcom-caf/$(PRODUCT_BOARD_PLATFORM)/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(PRODUCT_BOARD_PLATFORM)/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(PRODUCT_BOARD_PLATFORM)/media
 
 # Properties
 -include device/xiaomi/tissot/prop.mk
@@ -97,7 +101,10 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+$(LOCAL_PATH) \
+hardware/qcom-caf/$(PRODUCT_BOARD_PLATFORM)
+
+
 
 
 # Touch HAL
