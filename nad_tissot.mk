@@ -28,6 +28,10 @@ NAD_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_PIXEL_CHARGING := true
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := false
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
 PRODUCT_NAME := nad_tissot
@@ -38,7 +42,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
 # Build fingerprint
