@@ -30,7 +30,7 @@ USE_PIXEL_CHARGING := true
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := false
+USE_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
