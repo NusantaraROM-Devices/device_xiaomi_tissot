@@ -120,4 +120,8 @@ $(call inherit-product, build/target/product/verity.mk)
 #FireFoxLite
 PRODUCT_PACKAGES += \
     FireFoxLite
+	
+# NusantaraPapers
+PRODUCT_PACKAGES += \
+    NusantaraPapers	
 
