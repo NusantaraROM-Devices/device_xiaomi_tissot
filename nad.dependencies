@@ -6,12 +6,6 @@
    "branch":"11-4.9"
   },
   {
-    "remote":"priv",
-    "repository":"android_packages_apps_NusantaraPapers", 
-    "target_path":"packages/apps/NusantaraPapers",
-    "branch":"11"
-  },
-  {
     "remote":"github",
     "repository":"NusantaraROM-devices/vendor_xiaomi_tissot",
     "target_path":"vendor/xiaomi",
