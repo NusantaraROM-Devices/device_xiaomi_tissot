@@ -13,9 +13,9 @@
   },
   {
    "remote":"github",
-    "repository":"silont-project/kernel_xiaomi_tissot",
-    "target_path":"kernel/xiaomi/silont",
-    "branch":"rom"
+    "repository":"yincen17/kernel_xiaomi_tissot-1",
+    "target_path":"kernel/xiaomi/msm8953",
+    "branch":"elle"
   },
   {
    "remote":"github",
